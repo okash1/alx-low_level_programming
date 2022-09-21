@@ -16,11 +16,11 @@ int main(void)
 
 	if (n > 0)
 	{
-		pirntf("%i is psotive\n", n);
+		printf("%i is psotive\n", n);
 	}
 	else if (n == 0)
 	{
-		pritnf("%i is zero\n", n);
+		printf("%i is zero\n", n);
 	}
 	else
 	{
