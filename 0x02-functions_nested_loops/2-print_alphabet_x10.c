@@ -1,11 +1,11 @@
+#include <stdio.h>
 #include "main.h"
-#include "_putchar.c"
-#include "2-main.c"
+
 /**
- * print_alphabet x10 - Check main
- * Description: function uses _putchar function to print
- * Return: Nothing.
- */
+*print_alphabet x10 - Prints alphabet 10x
+*Return: Nothing.
+*/
+
 void print_alphabet_x10(void)
 {
 	char i;
@@ -15,7 +15,7 @@ void print_alphabet_x10(void)
 	{
 		for (i = 'a'; i <= 'z'; i++)
 			_putchar(i);
-		_putchar(i);
-	
+		_putchar('\n');
+
 	}
 }
