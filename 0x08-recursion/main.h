@@ -13,5 +13,6 @@ int wildcmp(char *s1, char *s2);
 int _sqrt(int n, int x);
 int is_prime(int n, int start);
 int _putchar(char c);
+void check(char *s, int start, int end, int *flag);
 
 #endif
